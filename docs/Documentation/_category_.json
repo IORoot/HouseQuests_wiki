@@ -1,0 +1,8 @@
+{
+  "label": "📚 Documentation",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Detailed knowledgebase of all concepts within the APS application"
+  }
+}
