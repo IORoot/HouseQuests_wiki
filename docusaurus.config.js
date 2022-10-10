@@ -47,7 +47,10 @@ const config = {
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: [ 
+            require.resolve('./src/css/custom.css'), 
+            require.resolve("./src/css/tailwind.css")
+          ],
         },
       }),
     ],
@@ -67,11 +70,20 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Documentation',
+            label: '📚 Documentation',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            to: '/downloads', 
+            label: '💾 Downloads', 
+            position: 'left'
+          },
+          {
+            to: '/blog', 
+            label: '📜 Blog', 
+            position: 'left'
+          },
+          {
+            href: 'https://github.com/IORoot/AdvancedPropertySearch',
             label: 'GitHub',
             position: 'right',
           },

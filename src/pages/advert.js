@@ -3,9 +3,9 @@ import Layout from '@theme/Layout';
 
 export default function MyReactPage() {
   return (
-    <Layout>
-      <h1>My React page</h1>
-      <p>This is a React page</p>
-    </Layout>
+      <div className="container">
+        <h1>My Advert page</h1>
+        <p>This is a Advert page</p>
+      </div>
   );
 }
