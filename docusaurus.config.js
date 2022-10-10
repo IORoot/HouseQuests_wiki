@@ -129,6 +129,10 @@ const config = {
                 label: 'GitHub',
                 href: 'https://github.com/facebook/docusaurus',
               },
+              {
+                label: 'Advert',
+                href: '/advert.html',
+              },
             ],
           },
         ],
