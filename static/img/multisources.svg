@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 312 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Sources</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="312" height="96" rx="8"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-400.000000, -992.000000)">
+            <g id="Sources" transform="translate(400.000000, 992.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Rectangle" fill="#FFF7ED" xlink:href="#path-1"></use>
+                <polygon id="Rectangle" fill="#FFF7ED" mask="url(#mask-2)" points="0 -32 152 -32 48 128 0 128"></polygon>
+                <polygon id="Rectangle-Copy-2" fill="#FFF7ED" mask="url(#mask-2)" points="256 -32 312 -32 312 128 168 128"></polygon>
+                <polygon id="Rectangle-Copy" fill="#FFF7ED" mask="url(#mask-2)" points="152 -32 256 -32 168 128 48 128"></polygon>
+                <path d="M261.073814,-35 L169.773814,131 L42.4719419,131 L150.371942,-35 L261.073814,-35 Z" id="Rectangle-Copy-4" stroke="#FFFFFF" stroke-width="6" mask="url(#mask-2)"></path>
+                <path d="M170.138427,33.8615726 C166.438839,30.002002 161.319408,27.9222333 156,28.0022244 C150.680592,27.9222333 145.581159,30.002002 141.88157,33.8615726 C138.002002,37.5611611 135.922233,42.6805917 136.002224,48 C135.922233,53.3194083 138.002002,58.4188411 141.861573,62.1184296 C145.561161,65.997998 150.680592,68.0777667 156,67.9977756 C161.319408,68.0777667 166.418841,65.997998 170.11843,62.1384274 C173.997998,58.4388389 176.077767,53.3194083 175.997776,48 C176.077767,42.6805917 173.997998,37.5611611 170.138427,33.8615726 M165.998888,48 L165.998888,59.9986654 L158.999666,59.9986654 L158.999666,49.9997776 L153.000334,49.9997776 L153.000334,59.9986654 L146.001112,59.9986654 L146.001112,48 L142.001557,48 L156,34.0015571 L170.998332,48 L165.998888,48 Z" id="Shape" fill="#238DBF" fill-rule="nonzero" mask="url(#mask-2)"></path>
+                <path d="M268,64 C259.2,64 252,56.8 252,48 C252,39.2 259.2,32 268,32 C276.8,32 284,39.2 284,48 C284,56.8 276.8,64 268,64 M268,28 C257,28 248,37 248,48 C248,59 257,68 268,68 C279,68 288,59 288,48 C288,37 279,28 268,28 M266,52 L270,52 L270,58 L276,58 L276,48 L280,48 L268,38 L256,48 L260,48 L260,58 L266,58 L266,52" id="Shape" fill="#EB585B" fill-rule="nonzero" mask="url(#mask-2)"></path>
+                <polygon id="Path-Copy" fill="#8046F1" fill-rule="nonzero" mask="url(#mask-2)" points="40 62 40 50 48 50 48 62 58 62 58 46 64 46 44 28 24 46 30 46 30 62"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
