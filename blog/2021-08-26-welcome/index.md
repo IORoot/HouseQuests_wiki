@@ -1,6 +1,7 @@
 ---
 slug: welcome
 title: Welcome
+excerpt: Welcome to the default markdown post.
 authors: [slorber, yangshun]
 tags: [facebook, hello, docusaurus]
 ---

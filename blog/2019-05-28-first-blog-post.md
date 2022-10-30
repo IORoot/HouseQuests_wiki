@@ -1,6 +1,7 @@
 ---
 slug: first-blog-post
 title: First Blog Post
+excerpt: The latest and greatest.
 authors:
   name: Gao Wei
   title: Docusaurus Core Team

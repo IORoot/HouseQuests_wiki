@@ -1,6 +1,7 @@
 ---
 slug: long-blog-post
 title: Long Blog Post
+excerpt: A long blog post and its data in here.
 authors: endi
 tags: [hello, docusaurus]
 ---

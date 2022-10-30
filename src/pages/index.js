@@ -3,7 +3,14 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures/HomepageFeatures.js';
+import HomepageFeaturesFirst from '@site/src/components/HomepageFeatures/HomepageFeaturesFirst.js';
+import HomepageFeaturesSecond from '@site/src/components/HomepageFeatures/HomepageFeaturesSecond.js';
+import HomepageFeaturesTop from '@site/src/components/HomepageFeatures/HomepageFeaturesTop.js';
+import HomepageMultiOS from '@site/src/components/HomepageFeatures/HomepageMultiOS.js';
+import HomepageVideo from '@site/src/components/HomepageFeatures/HomepageVideo.js';
+import HomepagePricing from '@site/src/components/HomepageFeatures/HomepagePricing.js';
+import HomepageBlogList from '@site/src/components/HomepageFeatures/HomepageBlogList.js';
+import HomepageLatestVersion from '@site/src/components/HomepageFeatures/HomepageLatestVersion.js';
 import ApplicationWindow from '@site/src/components/HomepageFeatures/ApplicationWindow.js';
 
 const RandomMarkers = function(){
@@ -25,7 +32,7 @@ const RandomMarkers = function(){
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <header className="bg-orange-50 text-gray-900 pt-12 md:pt-24 relative mb-40">
+    <header className="text-gray-900 pt-12 md:pt-24 relative mb-40">
       <div className="container lg:w-2/3 m-auto text-center flex flex-col gap-8 perspective z-10 relative">
         <h1 className="text-7xl">Everything you need for<br/>smart home hunting</h1>
         <p className="text-lg text-gray-500 md:w-1/2 m-auto">Multi-source, cross-platform, advanced property app. Collect, search, remove and organise. </p>
@@ -62,7 +69,14 @@ export default function Home() {
       description="Smart Home Searching">
       <HomepageHeader />
       <main>
-        <HomepageFeatures />
+        <HomepageFeaturesFirst />
+        <HomepageMultiOS />
+        <HomepageFeaturesSecond />
+        <HomepageVideo />
+        <HomepageFeaturesTop />
+        <HomepagePricing />
+        <HomepageBlogList />
+        <HomepageLatestVersion />
       </main>
     </Layout>
   );
