@@ -5,11 +5,11 @@ export default function HomepageFeaturesSecond() {
 
   return (
     <section>
-      <div className="container px-32 mb-40">
-        <div className="grid grid-cols-2 gap-32">
+      <div className="container px-4 md:px-8 lg:px-32  mb-40">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-32">
 
           <div className="flex flex-col gap-8">
-            <div className="h-44 rounded-xl overflow-hidden">
+            <div className="h-auto rounded-xl overflow-hidden">
               <img className="" src="img/featured_layers.gif"></img>
             </div>
             <div>
@@ -21,7 +21,7 @@ export default function HomepageFeaturesSecond() {
 
 
           <div className="flex flex-col gap-8">
-            <div className="h-44 rounded-xl overflow-hidden">
+            <div className="h-auto rounded-xl overflow-hidden">
               <img className="" src="img/local_area.gif"></img>
             </div>
             <div>

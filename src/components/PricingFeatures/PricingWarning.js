@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-export default function HomepageFeaturesFirst() {
+export default function PricingWarning() {
 
   return (
     <section className="relative">
@@ -44,7 +44,7 @@ export default function HomepageFeaturesFirst() {
           </div>
 
 
-          <div className="flex flex-col gap-8 hidden lg:block">
+          <div className="flex flex-col gap-8 lg:block">
             <div className="overflow-hidden h-196">
               <img className="absolute right-0 w-2/5" src="img/Laptop.png"></img>
             </div>

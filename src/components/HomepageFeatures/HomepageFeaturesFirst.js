@@ -5,12 +5,13 @@ export default function HomepageFeaturesFirst() {
 
   return (
     <section>
-      <div className="container px-32 mb-40">
-        <div className="grid grid-cols-2 gap-32">
+      <div className="container px-4 md:px-8 lg:px-32 mb-40">
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-32">
 
 
-          <div className="flex flex-col gap-8">
-            <img className="h-44"src="img/multisources.svg"></img>
+          <div className="flex flex-col gap-2 md:gap-8">
+            <img className="h-auto"src="img/multisources.svg"></img>
             <div>
               <h3>Multi-Source Properties</h3>
               <p className="text-gray-500">Plot markers on the same map from the premier property websites Zoopla, Rightmove and OnTheMarket to get a complete view of the current market.</p>
@@ -19,8 +20,8 @@ export default function HomepageFeaturesFirst() {
           </div>
 
 
-          <div className="flex flex-col gap-8">
-            <div className="h-44 rounded-xl overflow-hidden">
+          <div className="flex flex-col gap-2 md:gap-8">
+            <div className="h-auto rounded-xl overflow-hidden">
               <img className="" src="img/highlight_exclude.gif"></img>
             </div>
             <div>

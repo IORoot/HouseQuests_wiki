@@ -10,7 +10,8 @@ export default function HomepagePricing() {
 
 
           <div className="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
-              <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-100 ">Built for to help everyone</h2>
+              <h2 className="mb-4 text-5xl md:text-9xl tracking-tight font-extrabold text-gray-100 ">Pricing</h2>
+              <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-100 ">Something for everyone</h2>
               <p className="mb-5 font-light text-gray-300 sm:text-xl ">Here at HouseQuests we focus on making life easier to track down that perfect property.</p>
           </div>
 

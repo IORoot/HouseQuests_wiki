@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Introduction
 
-Let's discover the Advanced Property Search application.
+Let's discover the HouseQuests application.
 
 ## UK and London
 

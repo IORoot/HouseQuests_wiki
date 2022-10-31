@@ -8,10 +8,10 @@ export default function HomepageFeaturesTop() {
 
       
 
-      <div className="container px-32 mb-40">
-        <div className="grid grid-cols-3 gap-8">
+      <div className="container px-4 md:px-8 lg:px-32 mb-40">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 
-          <h2 className="col-span-3 text-3xl text-center">Top Features</h2>
+          <h2 className="col-span-1 md:col-span-2 lg:col-span-3 text-3xl text-center">Top Features</h2>
 
           <div className="flex flex-col gap-8 bg-stone-100 p-8 rounded-2xl">
             <div>

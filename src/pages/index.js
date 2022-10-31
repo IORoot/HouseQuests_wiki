@@ -32,16 +32,16 @@ const RandomMarkers = function(){
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <header className="text-gray-900 pt-12 md:pt-24 relative mb-40">
+    <header className="text-gray-900 pt-12 md:pt-24 relative mb-40 overflow-hidden">
       <div className="container lg:w-2/3 m-auto text-center flex flex-col gap-8 perspective z-10 relative">
-        <h1 className="text-7xl">Everything you need for<br/>smart home hunting</h1>
-        <p className="text-lg text-gray-500 md:w-1/2 m-auto">Multi-source, cross-platform, advanced property app. Collect, search, remove and organise. </p>
+        <h1 className="text-4xl md:text-7xl">Track down the perfect property</h1>
+        <p className="text-lg text-gray-500 md:w-1/2 m-auto">A new cross-platform, property app for searching across multiple sources. Search, analyse and organise. </p>
         <div className="flex flex-row gap-4 mx-auto mb-20">
           <Link to="/downloads" className="text-white bg-emerald-700 hover:bg-emerald-800 hover:text-orange-300 focus:ring-4 focus:outline-none focus:ring-emerald-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center ">
               Downloads
               <svg aria-hidden="true" className="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" ></path></svg>
           </Link>
-          <Link to="/docs/intro" className="text-emerald-700 border-solid border border-emerald-700 hover:bg-emerald-800 hover:text-orange-300 focus:ring-4 focus:outline-none focus:ring-emerald-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center">
+          <Link to="/pricing" className="text-emerald-700 border-solid border border-emerald-700 hover:bg-emerald-800 hover:text-orange-300 focus:ring-4 focus:outline-none focus:ring-emerald-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center">
             Pricing
           </Link>
         </div>
@@ -55,7 +55,7 @@ function HomepageHeader() {
         </ApplicationWindow>
       </div>
 
-      <svg className="absolute top-40 left-1/2 right-1/2 h-128 opacity-20 z-0 fill-orange-300" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 4C14.2 4 16 5.8 16 8C16 10.1 13.9 13.5 12 15.9C10.1 13.4 8 10.1 8 8C8 5.8 9.8 4 12 4M12 2C8.7 2 6 4.7 6 8C6 12.5 12 19 12 19S18 12.4 18 8C18 4.7 15.3 2 12 2M12 6C10.9 6 10 6.9 10 8S10.9 10 12 10 14 9.1 14 8 13.1 6 12 6M20 19C20 21.2 16.4 23 12 23S4 21.2 4 19C4 17.7 5.2 16.6 7.1 15.8L7.7 16.7C6.7 17.2 6 17.8 6 18.5C6 19.9 8.7 21 12 21S18 19.9 18 18.5C18 17.8 17.3 17.2 16.2 16.7L16.8 15.8C18.8 16.6 20 17.7 20 19Z"/></svg>
+      <svg className="absolute top-40 left-1/2 right-1/2 h-40 md:h-80 lg:h-128 opacity-20 z-0 fill-orange-300" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 4C14.2 4 16 5.8 16 8C16 10.1 13.9 13.5 12 15.9C10.1 13.4 8 10.1 8 8C8 5.8 9.8 4 12 4M12 2C8.7 2 6 4.7 6 8C6 12.5 12 19 12 19S18 12.4 18 8C18 4.7 15.3 2 12 2M12 6C10.9 6 10 6.9 10 8S10.9 10 12 10 14 9.1 14 8 13.1 6 12 6M20 19C20 21.2 16.4 23 12 23S4 21.2 4 19C4 17.7 5.2 16.6 7.1 15.8L7.7 16.7C6.7 17.2 6 17.8 6 18.5C6 19.9 8.7 21 12 21S18 19.9 18 18.5C18 17.8 17.3 17.2 16.2 16.7L16.8 15.8C18.8 16.6 20 17.7 20 19Z"/></svg>
     </header>
   );
 }

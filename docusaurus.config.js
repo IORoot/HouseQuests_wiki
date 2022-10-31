@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Home Quests',
+  title: 'House Quests',
   tagline: 'Hunt for the perfect property',
-  url: 'https://homequests.com',
+  url: 'https://housequests.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -17,7 +17,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'ioroot', // Usually your GitHub org/user name.
-  projectName: 'homequests', // Usually your repo name.
+  projectName: 'housequests', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -60,26 +60,31 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'HouseQuests',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'HouseQuests Logo',
           src: 'img/logo.svg',
         },
         items: [
           {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: '📚 Documentation',
-          },
-          {
             to: '/downloads', 
-            label: '💾 Downloads', 
+            label: 'Downloads', 
             position: 'left'
           },
           {
+            to: '/pricing', 
+            label: 'Pricing', 
+            position: 'left'
+          },
+          {
+            type: 'doc',
+            docId: 'intro',
+            position: 'left',
+            label: 'Docs',
+          },
+          {
             to: '/blog', 
-            label: '📜 Blog', 
+            label: 'Blog', 
             position: 'left'
           },
           {
