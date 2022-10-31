@@ -4,53 +4,41 @@ import React from 'react';
 export default function PricingWarning() {
 
   return (
-    <section className="relative">
-      <div className="container px-4 md:px-32 mb-40">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-32">
+    <section className="relative bg-red-800">
+      <div className="container px-4 md:px-32 py-32">
 
-          <div className="flex flex-col gap-8 my-auto">
 
-            <div className="flex flex-row gap-2 md:gap-4">
-
-              <a href="/downloads" className="p-2 md:p-4 hover:bg-stone-300 rounded-lg text-center hover:text-black hover:no-underline ease-linear bg-gray-900 text-gray-100 flex flex-col">
-                <img className="m-2 md:m-4 fill-white h-full my-auto" src="img/Apple_M1.svg"></img>
-                <div className="text-xl">MacOS</div>
-                <div className="text-xs">Apple M1</div>
-              </a>
-
-              <a href="/downloads" className="p-2 md:p-4 hover:bg-stone-300 rounded-lg text-center hover:text-black hover:no-underline ease-linear bg-gray-700 text-gray-100 flex flex-col">
-                <svg className="m-2 md:m-4 fill-white h-full mb-auto" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <title>Apple</title><path d="M12.152 6.896c-.948 0-2.415-1.078-3.96-1.04-2.04.027-3.91 1.183-4.961 3.014-2.117 3.675-.546 9.103 1.519 12.09 1.013 1.454 2.208 3.09 3.792 3.039 1.52-.065 2.09-.987 3.935-.987 1.831 0 2.35.987 3.96.948 1.637-.026 2.676-1.48 3.676-2.948 1.156-1.688 1.636-3.325 1.662-3.415-.039-.013-3.182-1.221-3.22-4.857-.026-3.04 2.48-4.494 2.597-4.559-1.429-2.09-3.623-2.324-4.39-2.376-2-.156-3.675 1.09-4.61 1.09zM15.53 3.83c.843-1.012 1.4-2.427 1.245-3.83-1.207.052-2.662.805-3.532 1.818-.78.896-1.454 2.338-1.273 3.714 1.338.104 2.715-.688 3.559-1.701"/>
-                </svg>
-                <div className="text-xl">MacOS</div>
-                <div className="text-xs">Apple Intel</div>
-              </a>
-
-              <a href="/downloads" className="p-2 md:p-4 hover:bg-stone-300 rounded-lg text-center hover:text-black hover:no-underline ease-linear bg-sky-400 text-gray-100 flex flex-col">
-                <svg className="m-2 md:m-4 fill-white h-full mb-auto" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <title>Windows</title><path d="M0 3.449L9.75 2.1v9.451H0m10.949-9.602L24 0v11.4H10.949M0 12.6h9.75v9.451L0 20.699M10.949 12.6H24V24l-12.9-1.801"/>
-                </svg>
-                <div className="text-xl">Windows</div>
-                <div className="text-xs">Microsoft</div>
-              </a>
-
-            </div>
-
-            <div>
-              <h3>Platform Agnostic</h3>
-              <p className="text-gray-500">Built with electron, this desktop application can run on <br/> Apple MacOS M1, Apple Intel chips and Microsoft Windows.</p>
-              <a className="text-gray-900" href="/downloads">Download for your Operating System<svg className="ml-2 w-3 h-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"></path></svg></a>
-            </div>
+        <div className="p-6 w-full bg-white rounded-lg flex flex-col gap-8">
+          <h1 className="text-7xl text-center text-red-800">WARNING</h1>
+          <div className="text-2xl">
+            <p>We wish to be completely open to you with the HouseQuests software. It is currently a passion-project run on the side by a couple of people who have full-time jobs and are making it available to the public.</p>
+            <p>Therefore, this application does <span className="text-red-500 font-bold">NOT</span> come with the following things that you would normally expect with software:</p>
+          
+            <ul role="list" className="mb-8 space-y-4 text-left">
+              <li className="flex items-center space-x-3">
+                  <svg className="flex-shrink-0 w-5 h-5 text-red-500" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z"/></svg>
+                  <span><span class="font-bold">Customer support.</span> We do not have a support team and cannot help with any issues or bugs. We keep the troubleshooting section of this website as accurate as possible - please refer to that for any issues.</span>
+              </li>
+              <li className="flex items-center space-x-3">
+                  <svg className="flex-shrink-0 w-5 h-5 text-red-500" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z"/></svg>
+                  <span><span class="font-bold">3rd party Services.</span> This application is built upon multiple third-party APIs and services - if any of those services change or block this application, it will take time to fix or potentially remove that feature if a solution cannot be found.</span>
+              </li>
+              <li className="flex items-center space-x-3">
+                  <svg className="flex-shrink-0 w-5 h-5 text-red-500" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z"/></svg>
+                  <span><span class="font-bold">Stopping services.</span> As mentioned above, this is primarily run by a couple of people and we may decide that we wish to walk away from continuing development. In such an event, notices will be made and subscriptions will be halted. Purchases will not be refunded.</span>
+              </li>
+              <li className="flex items-center space-x-3">
+                  <svg className="flex-shrink-0 w-5 h-5 text-red-500" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z"/></svg>
+                  <span><span class="font-bold">Bugfixes and updates.</span> There are no guaranteed bug-fixes or updates.</span>
+              </li>
+              <li className="flex items-center space-x-3 pt-20">
+                  <span>If you have ANY issues with these caveats, then please do not purchase this software. We advise to try the free version before you make any purchase to avoid any issues or disappointment.</span>
+              </li>
+          </ul>
+          
           </div>
-
-
-          <div className="flex flex-col gap-8 lg:block">
-            <div className="overflow-hidden h-196">
-              <img className="absolute right-0 w-2/5" src="img/Laptop.png"></img>
-            </div>
-          </div>
-
         </div>
+
       </div>
     </section>
   );

@@ -20,3 +20,8 @@
 .fadeInFromTop {
   animation-name: fadeInFromTop;
 }
+
+.warningStripes {
+  background-image: linear-gradient(45deg, #000000 25%, #fbbf24 25%, #fbbf24 50%, #000000 50%, #000000 75%, #fbbf24 75%, #fbbf24 100%);
+  background-size: 56.57px 56.57px;
+}
