@@ -42,7 +42,7 @@ function downloadPage() {
   return (
     <Layout >
       <div className="container py-8">
-        <h1 className="text-9xl ">{data.name}</h1>
+        <h1 className="text-9xl text-emerald-900">{data.name}</h1>
         <h2 className="text-3xl text-stone-600 dark:text-stone-300">Released on {data.created_at?.split("T")[0]}</h2>
         <ReactMarkdown remarkPlugins={[gfm]} className="text-stone-700 dark:text-stone-400">{data.body}</ReactMarkdown>
 
