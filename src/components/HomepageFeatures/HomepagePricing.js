@@ -15,7 +15,7 @@ export default function HomepagePricing() {
                 </div>
 
 
-                <form action="https://138.68.156.78/create-checkout-session" method="POST">
+                <form action="http://138.68.156.78/create-checkout-session" method="POST">
                 
                     <div className="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
 
