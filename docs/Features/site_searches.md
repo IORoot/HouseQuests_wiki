@@ -1,9 +1,8 @@
 ---
-sidebar_label: '🔎 Multi-Search'
-sidebar_position: 1
+sidebar_label: '🔎 Site Searches'
 ---
 
-# Multi-Search
+# Site Searches
 
 The base requirement of the HouseQuests application was the ability to see properties from multiple online sources all on a single map. 
 
@@ -14,3 +13,14 @@ We currently support the following sources:
 - Zoopla.co.uk
 - Rightmove.co.uk
 - OnTheMarket.com
+
+## Paste search
+
+
+## Toggle markers
+
+## Goto original
+
+## Marker count
+
+## Refresh Page

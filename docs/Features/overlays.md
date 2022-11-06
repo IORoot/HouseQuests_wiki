@@ -1,6 +1,5 @@
 ---
 sidebar_label: '🚇 Overlays'
-sidebar_position: 2
 ---
 
 # Overlays
