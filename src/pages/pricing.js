@@ -24,7 +24,7 @@ const SuccessDisplay = ({ sessionId }) => {
           <h3>Subscription to starter plan successful!</h3>
         </div>
       </div>
-      <form action="http://138.68.156.78/create-portal-session" method="POST">
+      <form action="138.68.156.78/create-portal-session" method="POST">
         <input
           type="hidden"
           id="session-id"
