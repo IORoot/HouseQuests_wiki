@@ -13,7 +13,7 @@ export default function SubscriptionSuccess({ sessionId }) {
                 </div>
 
 
-                <form className="m-auto"  action="http://138.68.156.78.nip.io/create-portal-session" method="POST">
+                <form className="m-auto"  action="https://138.68.156.78.nip.io/create-portal-session" method="POST">
                     <input
                     type="hidden"
                     id="session-id"
