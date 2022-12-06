@@ -15,8 +15,8 @@ The property details page provides extra property information that is potentiall
 Sometimes the estate agent will take rough longitude and latitude measurements or will miss postcodes and extra details. This section attempts to narrow down the location through various third-party sources. Each external source has a link in the table of results for you to visit if you wish to manually try. Sources include:
 
 - [Nominatim](https://nominatim.org/)
-- [findthatpostcode.uk](https://www.findthatpostcode.uk)
-- [findthatpostcode.uk github](https://github.com/drkane/find-that-postcode)
+- [https://findthatpostcode.uk](https://www.findthatpostcode.uk)
+- [https://findthatpostcode.uk GitHub](https://github.com/drkane/find-that-postcode)
 
 ## ℹ️ Extra Information
 
@@ -36,7 +36,7 @@ A list of any train or tube stations that are close to the property. If provided
 
 ## 🚨 Crimes
 
-A list of any crimes within the vicinity of the property will be listed here. This is provided by the [data.police.uk](data.police.uk) API.
+A list of any crimes within the vicinity of the property will be listed here. This is provided by the [https://data.police.uk](https://data.police.uk) API.
 
 ## ☁️ Broadband
 
