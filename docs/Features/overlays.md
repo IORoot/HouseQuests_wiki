@@ -2,18 +2,24 @@
 sidebar_label: '🚇 Overlays'
 ---
 
-# Overlays
+# 🚇 Overlays
+
+`Right Drawer > Overlays`
 
 Seeing train stations, bus routes, school locations and other essential information was a key feature that has been implemented into the application.
 
 The following layers can be toggled on or off for the entire map:
 
-## London Tube Lines
+## 🚇 London Tube Lines
 
-Shows all colour-coded tube lines for the Tfl underground. You can click on any part of a line and the popup will tell you the line name as well as the two stations that part of the line is connected to.
+Shows all colour-coded tube lines for the Tfl underground. A straight line between stations and not geographically accurate. You can click on any part of a line and the popup will tell you the line name as well as the two stations that part of the line is connected to.
+
+- TFL Line Name (Jubilee, northern, central, etc...)
+- Station A Name
+- Station B Name
 
 
-## London Tube Stations
+## 🚈 London Tube Stations
 
 Every dot on the map will be one of the hundreds of tube stations scattered around london. Click on the marker for:
 - Station Name
@@ -23,12 +29,15 @@ Every dot on the map will be one of the hundreds of tube stations scattered arou
 - A link to more details of the station.
 
 
-## London Train Lines
+## 🛤 London Train Lines
 
-To compliment the map, we have also included the colour-coded train lines within London. These are from multiple different train services and by clicking on the line will popup information that includes the service name for that particular section of track and the two stations it connects to.
+To compliment the map, we have also included the colour-coded train lines within London. A straight dotted line that isn't geographically correct and doesn't follow the tracks exactly. These are from multiple different train services and by clicking on the line will popup information that includes the service name for that particular section of track and the two stations it connects to.
 
+- Train Line Operator (SouthEastern, Thameslink, etc...)
+- Station A Name
+- Station B Name
 
-## London Train Stations
+## 🚉 London Train Stations
 
 For those who commute into London, one of the most important pieces of information is where are the train stations. This toggle button will show most stations within and around the M25 boundary of London. Click on the marker for:
 - Station Name
@@ -38,14 +47,14 @@ For those who commute into London, one of the most important pieces of informati
 - A link to more details of the station.
 
 
-## National Rail Lines
+## 🚅 National Rail Lines
 
-A country-wide overlay of the entire UK train lines. Click on any line for the Name of the line and the operator of it.
+A country-wide overlay of the entire UK train lines. Click on any line for the Name of the line and the operator of it. This is geographically accurate and the line will follow the real-world tracks on the map. The lines are not colour-coded however.
 
 
-## National Rail Stations
+## 💺 National Rail Stations
 
-A much more useful overlay is every train station (including the underground tube stops) in the UK. See more detailed information about each station by clicking on the dot marker. See the:
+A much more useful overlay is every train station (including the underground tube stops) in the UK. Not colour-coded, but much more expansive. See more detailed information about each station by clicking on the dot marker. See the:
 - Station Name
 - Operator
 - Network
@@ -53,7 +62,7 @@ A much more useful overlay is every train station (including the underground tub
 - Number of Platforms
 
 
-## London Bus Routes
+## 🚌 London Bus Routes
 
 For those who wish to see the entire London bus network, this overlay will give you the details you need. There is a lot of data on the overlay since clicking on any section of the bus lines will show you the following data:
 - Name of the Route
@@ -66,12 +75,12 @@ For those who wish to see the entire London bus network, this overlay will give 
 - Link to (outbound) station list
 
 
-## London Supermarkets
+## 🛒 London Supermarkets
 
 Get a general overview of all the London supermarket locations. Click on any location for the name of the store, the street it is on and a link to their website if available.
 
 
-## University
+## 🎓 University
 
 Show a marker of every registered UCAS university in the country. By clicking of the marker you'll get:
 - University Name
@@ -81,7 +90,7 @@ Show a marker of every registered UCAS university in the country. By clicking of
 - Email address
 
 
-## Free Schools
+## 👨‍🏫 Free Schools
 
 As defined by the GOV.uk website, Free schools are funded by the government but are not run by the local authority.
 
@@ -101,7 +110,7 @@ Click on any marker for:
 Note that this is not a complete list of schools and may have missing entries.
 
 
-## Funded Schools
+## 👩‍🏫 Funded Schools
 
 State-funded schools are those that are funded by the local authority. See the government website for details: [School Types](https://www.gov.uk/types-of-school)
 
@@ -119,7 +128,7 @@ Any marker will also show:
 Note that this is not a complete list of schools and may have missing entries.
 
 
-## Child Centers
+## 👶 Child Centers
 
 Display a list of registered childcare centers within the UK. Note that this is not an exhaustive list, but should be used to help see the options available.
 
@@ -130,7 +139,7 @@ Clicking on the marker will display:
 - Phone number
 
 
-## 2018 Crime Borough Statistics
+## 🛡 2018 Crime Borough Statistics
 
 This overlay will split the UK into separate boroughs and overlay a green / yellow / red transparent fill to show the average crime levels. 
 You can click on any of the boroughs to see a complete break-down of the 2018 numbers for each category of crime. There is also a percentage for all-crimes against the nation highest (Westminster). 

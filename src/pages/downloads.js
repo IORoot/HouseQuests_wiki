@@ -4,6 +4,7 @@ import useFetch from '../components/DownloadFeatures/useFetch';
 import ReactMarkdown from 'react-markdown'
 import gfm from 'remark-gfm'
 
+
 function downloadPage() {
 
   const { data } = useFetch("https://api.github.com/repos/ioroot/advancedpropertysearch/releases/latest");
@@ -39,18 +40,23 @@ function downloadPage() {
     );
   })
 
+
   return (
     <Layout >
-      <div className="container py-8">
+      <div className="container py-8 pb-32">
         <h1 className="text-9xl text-emerald-900">{data.name}</h1>
         <h2 className="text-3xl text-stone-600 dark:text-stone-300">Released on {data.created_at?.split("T")[0]}</h2>
         <ReactMarkdown remarkPlugins={[gfm]} className="text-stone-700 dark:text-stone-400">{data.body}</ReactMarkdown>
 
         <p className="text-2xl font-semibold text-gray-600">File Downloads:</p>
-        <div className="flex flex-row gap-8 flex-wrap">
+        <div className="flex flex-row gap-8 flex-wrap mb-20">
           {assetOutput}
         </div>
+
+        <hr className="mb-20"/>
+        <a href="/releases" className="text-xl p-8 hover:bg-stone-300 rounded-2xl text-center hover:text-black hover:no-underline ease-linear bg-emerald-900 text-white">All releases and changelog.</a>
       </div>
+
     </Layout>
   );
 

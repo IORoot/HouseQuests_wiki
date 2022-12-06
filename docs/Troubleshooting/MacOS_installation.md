@@ -1,5 +1,5 @@
 ---
-sidebar_label: '🔎 MacOS Installation'
+sidebar_label: '🖥 MacOS Installation'
 ---
 
-# MacOS Installation Problems
+# 🖥 MacOS Installation Problems

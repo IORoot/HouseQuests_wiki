@@ -3,6 +3,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepagePricing from '@site/src/components/HomepageFeatures/HomepagePricing.js';
 import PricingWarning from '@site/src/components/PricingFeatures/PricingWarning.js';
+import StripePortal from '@site/src/components/PricingFeatures/StripePortal.js';
 import SubscriptionSuccess from '@site/src/components/PricingFeatures/SubscriptionSuccess.js';
 
 
@@ -12,6 +13,7 @@ const ProductDisplay = () => (
     description="Smart Home Searching">
     <main>
       <HomepagePricing />
+      <StripePortal />
       <PricingWarning />
     </main>
   </Layout>
