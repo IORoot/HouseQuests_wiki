@@ -27,7 +27,7 @@ Based on the source website and their sources (usually the [GOV.uk](https://www.
 
 `Right Drawer > Statistics > Crime Ratings`
 
-By pressing the Crime Ratings button to initiate a call to the [data.police.uk](data.police.uk), you will retrieve current crime statistics for the area. Useful for comparing against other areas and their relative numbers.
+By pressing the Crime Ratings button to initiate a call to the [data.police.uk](http://data.police.uk), you will retrieve current crime statistics for the area. Useful for comparing against other areas and their relative numbers.
 
 ## Renters vs Buyers
 
