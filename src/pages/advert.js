@@ -8,7 +8,6 @@ const ProductDisplay = () => (
       <AdvertPricing />
 );
 
-
 export default function App() {
   return <ProductDisplay />;
 }
