@@ -136,7 +136,7 @@ const config = {
               },
               {
                 label: 'Advert',
-                href: '/advert.html',
+                href: '/advert',
               },
             ],
           },
