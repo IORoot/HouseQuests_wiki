@@ -45,7 +45,7 @@ export default function HomepagePricing() {
                             
                                 {/* Add a hidden field with the lookup_key of your Price */}
                                 <input type="hidden" name="lookup_key" value="subscription_monthly" />
-                                <a id="advert-link" href="https://housequests.com/pricing" className="border-none hover:cursor-pointer hover:underline text-white bg-emerald-600 hover:bg-emerald-700 focus:ring-4 focus:ring-emerald-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center hover:text-orange-400" id="checkout-and-portal-button" type="submit">
+                                <a id="advert-link" href="https://housequests.com/pricing" className="border-none hover:cursor-pointer hover:underline text-white bg-emerald-600 hover:bg-emerald-700 focus:ring-4 focus:ring-emerald-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center hover:text-orange-400" type="submit">
                                     Start Today
                                 </a>
                             </div>
