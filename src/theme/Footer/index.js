@@ -16,7 +16,7 @@ function Footer() {
 
 
   const {siteConfig} = useDocusaurusContext();
-  mixpanel.init(siteConfig.customFields.mixpanel.token, {debug: true}); 
+  mixpanel.init(siteConfig.customFields.mixpanel.token, {debug: true, api_host: "https://api.mixpanel.com"}); 
   mixpanel.track('Page visit');
 
   return (
