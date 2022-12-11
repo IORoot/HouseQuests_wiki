@@ -9,14 +9,14 @@ This is the technical documentation for installing HouseQuests onto your Apple M
 1. To get started, you need to download the correct version. Head over to the [downloads](/downloads) page and click on either the M1 MacOS download button or the Intel MacOS button depending on your machine and architecture.
 
 :::info
-If you don't know which chip your machine has, you can goto the far top left Apple menu > About This Mac. Under 'chip' it will say what you are running.
+If you don't know which chip your machine has, you can go to the far top left Apple menu > About This Mac. Under 'chip' it will say what you are running.
 :::
 
 2. Once you have downloaded the file, it will be a `.dmg` file. Something like `HouseQuests-0.1.17-arm64.dmg`. Double-click to open it.
 
 3. This will pop open a small modal window to allow you to drag the HouseQuests app into your Applications folder. Click and drag it in. You can now close that window.
 
-4. When you install from a `.dmg`, it mounts a virtual drive in your finder locations. In the left sidebar of finder, you'll see `HouseQuests-0.1.17-arm64.dmg` being listed. hover over it and click the `⏏ Eject` button to unmount it.
+4. When you install from a `.dmg`, it mounts a virtual drive in your finder locations. In the left sidebar of the finder, you'll see `HouseQuests-0.1.17-arm64.dmg` being listed. hover over it and click the `⏏ Eject` button to unmount it.
 
 5. Now you can open your Applications folder and double-click the HouseQuests app.
 
@@ -37,8 +37,8 @@ Then press `⏎ enter`.
 :::
 
 
-You should now have the MacOS version of HouseQuests running on your machine.
+You should now have the macOS version of HouseQuests running on your machine.
 
 ## 🏗 Architecture
 
-HouseQuests is built using Electron, among other things. This makes is very reliable and versatile with multiple operating systems, including MacOS, windows and Linux. 
+HouseQuests is built using Electron, among other things. This makes it very reliable and versatile with multiple operating systems, including macOS, Windows and Linux. 

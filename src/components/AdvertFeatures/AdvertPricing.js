@@ -7,7 +7,7 @@ export default function AdvertPricing() {
         <section className="bg-emerald-900 py-4">
             <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-4 lg:px-6">
                 
-                <div className="space-y-4 lg:grid lg:grid-cols-2 sm:gap-6 xl:gap-10 lg:space-y-0">
+                <div className="space-y-4 lg:grid lg:grid-cols-2 sm:gap-4 xl:gap-4 lg:space-y-0">
 
                     <div className="flex flex-col p-4 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow w-full xl:p-4 ">
                         <h2 className="mb-4 text-5xl tracking-tight font-extrabold text-emerald-900 ">Pricing</h2>
@@ -40,12 +40,8 @@ export default function AdvertPricing() {
                                     <span>Access latest version</span>
                                 </li>
                             </ul>
-                        
-                            {/* Add a hidden field with the lookup_key of your Price */}
-                            <input type="hidden" name="lookup_key" value="subscription_monthly" />
-                            <a id="advert-link" href="https://housequests.com/pricing" className="border-none hover:cursor-pointer hover:underline text-white bg-emerald-600 hover:bg-emerald-700 focus:ring-4 focus:ring-emerald-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center hover:text-orange-400" type="submit">
-                                Start Today
-                            </a>
+
+                            <p className="border-none text-white bg-emerald-600 font-medium rounded-lg text-sm px-5 py-2.5 text-center">Visit HouseQuests.com to subscribe</p>
                         </div>
 
                     </div>

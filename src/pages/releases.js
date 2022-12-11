@@ -14,8 +14,6 @@ function get_assets(assets) {
 
     let assetOutput = []
 
-    console.log(assets) 
-
     assets.forEach( function(asset){
 
       let os = 'Intel MacOS'

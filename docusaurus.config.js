@@ -27,6 +27,12 @@ const config = {
     locales: ['en'],
   },
 
+  customFields: {
+    mixpanel: {
+      token: '88c85907bbf0406fee18a4dc38ae11f4',
+    },
+  },
+
   presets: [
     [
       'classic',
@@ -107,23 +113,6 @@ const config = {
             ],
           },
           {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
             title: 'More',
             items: [
               {
@@ -132,7 +121,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/ioroot/housequests',
               },
               {
                 label: 'Advert',
@@ -148,6 +137,7 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
+    
 };
 
 module.exports = config;
