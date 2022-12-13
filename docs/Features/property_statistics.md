@@ -1,8 +1,10 @@
 ---
-sidebar_label: '📊 Statistics'
+sidebar_label: '📊 Property Statistics'
 ---
 
-# 📊 Statistics
+# 📊 Property Statistics
+
+<iframe width="100%" class="h-96" src="https://www.youtube.com/embed/Bcds7e8AFJ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 `Right Drawer > Statistics`
 

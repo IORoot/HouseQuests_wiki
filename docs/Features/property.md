@@ -4,13 +4,15 @@ sidebar_label: '🏡 Property'
 
 # 🏡 Property
 
+<iframe width="100%" class="h-96" src="https://www.youtube.com/embed/epHa-SaD4Lg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 `Right Drawer > Property`
 
-After clicking a marker the right drawer will open and the app will open on the property tab to present the main information of that location.
+After clicking a marker the right drawer will open and the app will open on the property tab to present the main information about that location.
 
 ## 🪪 Title and ID
 
-In bold text at the top you will see the title and headline of the property advert written by the estate agent. This is then followed by a sub-title underneath in small text that shows the source and numerical ID of that property.
+In the bold text at the top, you will see the title and headline of the property advert written by the estate agent. This is then followed by a sub-title underneath in small text that shows the source and numerical ID of that property.
 
 This source will be either Zoopla, Rightmove or OnTheMarket.
 
@@ -54,7 +56,7 @@ Depending on the source of the data, sometimes these values may be missing. Howe
 
 `Right Drawer > Property > Highlighted Words`
 
-The next panel is only visible if you have setup the text-highlighters in `Left Drawer > Preferences > Text Highlighter`. 
+The next panel is only visible if you have set up the text highlighters in `Left` Drawer > Preferences > Text Highlighter`. 
 
 You will see any positive or negative matched words listed in this panel.
 
@@ -68,7 +70,7 @@ Thumbnail images of the listed property. Note that every image is clickable to o
 
 `Right Drawer > Property > Floorplan`
 
-Under the images is an optional floorplan of the property is the estate-agent has supplied it to the source website. This is also clickable to open a new window with a full-size version.
+Under the images is an optional floorplan of the property is the estate agent has supplied to the source website. This is also clickable to open a new window with a full-size version.
 
 ## 📄 Description
 

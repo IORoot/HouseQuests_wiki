@@ -4,6 +4,8 @@ sidebar_label: '👋 Intro Panel'
 
 # 👋 Introduction Panel
 
+<iframe width="100%" class="h-96" src="https://www.youtube.com/embed/25lAt4JxVVM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Opening up the app will initially present you with the introduction panel. It has some key information and functionality built in.
 
 ## 🆚 Versioning 
@@ -22,7 +24,7 @@ The left-hand side of the intro panel will show the release message of the curre
 
 ## 🔗 Quick Links
 
-There are some quick links on the right-side of the panel to help you get to some useful resources.
+There are some quick links on the right side of the panel to help you get to some useful resources.
 
 
 ## 💀 Disabling the panel

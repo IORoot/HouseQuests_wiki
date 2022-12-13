@@ -4,6 +4,8 @@ sidebar_label: '🛏 Property Details'
 
 # 🛏 Property Details
 
+<iframe width="100%" class="h-96" src="https://www.youtube.com/embed/JjLR4_ipjsk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 `Right Drawer > Details`
 
 The property details page provides extra property information that is potentially not provided by the original source (Zoopla / Rightmove / OnTheMarket). The application will contact 3rd-party sources and APIs to query them with the given longitude and latitude of the property.

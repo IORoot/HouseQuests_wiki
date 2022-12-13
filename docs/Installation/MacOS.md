@@ -4,6 +4,10 @@ sidebar_label: '🖥 MacOS'
 
 # 🖥 MacOS
 
+<iframe width="100%" class="h-96" src="https://www.youtube.com/embed/4nata5Fgs4g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
 This is the technical documentation for installing HouseQuests onto your Apple Mac (Intel or M1/M2) based machine.
 
 1. To get started, you need to download the correct version. Head over to the [downloads](/downloads) page and click on either the M1 MacOS download button or the Intel MacOS button depending on your machine and architecture.

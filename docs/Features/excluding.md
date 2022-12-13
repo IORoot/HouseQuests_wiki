@@ -4,6 +4,8 @@ sidebar_label: '❌ Excluding'
 
 # ❌ Excluding (hiding) Properties
 
+<iframe width="100%" class="h-96" src="https://www.youtube.com/embed/uMzOfv48CGk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 One of the primary features of HouseQuests is the ability to exclude or hide any properties that you're not interested in. This effectively removes the marker from ever showing again on the map. You can focus on only those new houses that have been added or the ones you've favourited.
 
 ## 🏚 Exclude a property
@@ -12,15 +14,15 @@ One of the primary features of HouseQuests is the ability to exclude or hide any
 
 Click on any marker on the map and see the house details in the right drawer, that opens. At the top of the `Property` tab, the first button is the `Exclude` one. Click that and the marker will be removed.
 
-Behind the scenes, you're adding the property ID to a long list. That long list is then checked whenever the map is updated and makes sure that property isn't included.
+Behind the scenes, you're adding the property ID to a long list. That long list is then checked whenever the map is updated and makes sure that the property isn't included.
 
 ## 🆔 Excluded IDs panel
 
 `Left Drawer > Preferences > Excluded IDs`
 
-OK, you've just accidently removed a property that you didn't want to. How do you get it back?
+OK, you've just accidentally removed a property that you didn't want to. How do you get it back?
 
-Head over to the left drawer (click the green cog icon in top left corner) and visit the `preferences` tab. There you can see the `Excluded IDs` panel that lists all of the properties you've excluded. It's a scrollable list, so hover over the list and use the mouse wheel to scroll up/down.
+Head over to the left drawer (click the green cog icon in the top left corner) and visit the `preferences` tab. There you can see the `Excluded IDs` panel that lists all of the properties you've excluded. It's a scrollable list, so hover over the list and use the mouse wheel to scroll up/down.
 
 This panel has a few features to control your list.
 
@@ -36,7 +38,7 @@ You can switch the entire list of excluded properties on or off by simply clicki
 
 `Left Drawer > Preferences > Excluded IDs > ID tag > ID number`
 
-The list of property ID tags are in chronological order with the last one you excluded listed first. If you click on the tag ID number it will load that property in the right-hand drawer so you can see the details.
+The list of property ID tags is in chronological order with the last one you excluded listed first. If you click on the tag ID number it will load that property in the right-hand drawer so you can see the details.
 
 ### Remove Excluded Property
 

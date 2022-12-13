@@ -4,11 +4,14 @@ sidebar_label: '⌨️ Administration'
 
 # ⌨️ Administration
 
-The administration tab is where you go to handle most of the more critical parts of the application. From file-handling, to authentication. Note that some of these settings are for subscribers only.
+<iframe width="100%" class="h-96" src="https://www.youtube.com/embed/22I4kE4RikY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+The administration tab is where you go to handle most of the more critical parts of the application. From file handling to authentication. Note that some of these settings are for subscribers only.
 
 ## ⏺ Saved Settings 
 :::info
-This is for ` Subscriptions only `.
+This is for ` Subscriptions only`.
 :::
 A very powerful feature that allows you to switch between different searches and results. Think of it as a "👾 Save Game" feature that you can go back to.
 
@@ -16,7 +19,7 @@ A very powerful feature that allows you to switch between different searches and
 
 🌈 An Example
 
-The situation: Let's say you were interested in buying property in Ealing, London, but you had a friend who was looking to rent property in Dulwich. It's a little tricky (but still do-able) to add those two locations into the property searches of Zoopla/Rightmove/OnTheMarket and plot them on their map. The really hard bit is separating the renting and buying aspects of the two areas. 
+The situation: Let's say you were interested in buying property in Ealing, London, but you had a friend who was looking to rent property in Dulwich. It's a little tricky (but still doable) to add those two locations into the property searches of Zoopla/Rightmove/OnTheMarket and plot them on their map. The really hard bit is separating the renting and buying aspects of the two areas. 
 
 Solution: Using Saved Settings you can separate these two scenarios out. Create a new save called `Buy in Ealing` and proceed to add a search for properties in that area. Now, create a second save `Rent in Dulwich` and replace all of the searches for ones that are more appropriate for that area and renting.
 
@@ -42,32 +45,34 @@ Your saved file will now have been updated.
 You can permanently remove the save by clicking the `Delete Button`.
 
 :::danger
-There is currently no undo. Please use with caution since you will remove the save permanently.
+There is currently no undo. Please use it with caution since you will remove the save permanently.
 :::
 
 
 ### 🔹 What is saved and when.
-When you save your settings, its a snapshot of all your settings in the current setup. That means your currently excluded properties, favourited ones, etc... will all be remembered. This means you can pick up where you left off. However, any new properties excluded or changed will **NOT BE SAVED** - Clicking the button will revert you back to that saved point. Remember to click the `overwrite` button to resave over your existing save.
+When you save your settings, it's a snapshot of all your settings in the current setup. That means your currently excluded properties, favourited ones, etc... will all be remembered. This means you can pick up where you left off. However, any new properties excluded or changed will **NOT BE SAVED** - Clicking the button will revert you back to that saved point. Remember to click the `overwrite` button to resave your existing save.
 
 
 
 ## 🔁 Import / Export
 :::info
-This is for ` Subscriptions only `.
+This is for ` Subscriptions only`.
 :::
 
-Primarily used for backing up your settings and loading them back into the appliction. Can also be used for sending your search settings to friends. (Be aware your authorisation code will also be shared!)
+<iframe width="100%" class="h-96" src="https://www.youtube.com/embed/g_Bk8q-4E04" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Primarily used for backing up your settings and loading them back into the application. Can also be used for sending your search settings to friends. (Be aware your authorisation code will also be shared!)
 
 ### ➡️ Exporting
 Click the `Export All Settings` button and you will be prompted with a normal 'Save location' window. The file is a typical `json` file that automatically adds the date to the filename for you.
 
 ### ⬅️ Importing
 
-Clik the `Import All Settings` to be shown a modal window for uploading your exported `JSON` file. Click on the `Choose File` button and pick an appropriate file to load. The file will load and the application will refresh.
+Click the `Import All Settings` to be shown a modal window for uploading your exported `JSON` file. Click on the `Choose File` button and pick an appropriate file to load. The file will load and the application will refresh.
 
 ### 🧑‍💻 Advanced
 
-Since the file is a simple `JSON` file, you can open it into your favourite text-editor or IDE and analyse the contents. Be careful with the formatting, but you can update, edit or change any of the settings manually if you wish.
+Since the file is a simple `JSON` file, you can open it in your favourite text editor or IDE and analyse the contents. Be careful with the formatting, but you can update, edit or change any of the settings manually if you wish.
 
 ## 🔐 Authentication Code
 
@@ -75,7 +80,9 @@ Please see the [Authentication Doc](/docs/Features/authentication)
 
 ## ⛔️ Danger Zone
 
-Be careful with this section of the admin panel. If you have a subscription, make sure you've taken a file export (see above) to backup all your settings before doing any of these functions.
+<iframe width="100%" class="h-96" src="https://www.youtube.com/embed/7tFk4KLO-Vw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Be careful with this section of the admin panel. If you have a subscription, make sure you've taken a file export (see above) to back up all your settings before doing any of these functions.
 
 ### ⚠️ Reset Favourites
 
@@ -84,4 +91,4 @@ You can recover by importing an existing saved settings file.
 
 ### 🚫 Clear Searches
 
-This button will clear any existing searches from the textboxes on the 'search' page. It will also remove any existing markers on the map. You can recover by either inputting the same searches from the source websites again, using a backup file, or loading one of the saved settings.
+This button will clear any existing searches from the text boxes on the 'search' page. It will also remove any existing markers on the map. You can recover by either inputting the same searches from the source websites again, using a backup file or loading one of the saved settings.

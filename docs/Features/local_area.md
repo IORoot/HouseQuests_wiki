@@ -4,9 +4,11 @@ sidebar_label: '🏘 Local Area'
 
 # 🏘 Local Area
 
+<iframe width="100%" class="h-96" src="https://www.youtube.com/embed/65L3Ly9Qzog" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 `Right Drawer > Local Area`
 
-The local area tab, on the right drawer allows you to request data from third-party sources (Like the Police, mapping services, etc...) and plot the data around the selected marker. To restrict the number of markers, the results are within a 1km (1000m) range. 
+The local area tab, on the right drawer, allows you to request data from third-party sources (Like the Police, mapping services, etc...) and plot the data around the selected marker. To restrict the number of markers, the results are within a 1km (1000m) range. 
 
 Note that the more markers and points you add to the map, the more your computer has to handle. So it's best to switch them off once used. 
 
@@ -41,12 +43,12 @@ Taken for the UK Police API, the local-crimes icons will display the following i
 The major supermarket chains in the area. The icons are colour-coded by the supermarket brand. Clicking on the icon will show some or all of the following information:
 
 - Name of supermarket
-- Brand name of supermarket
+- Brand name of the supermarket
 - Opening hours
 - Website
 - Address
 
-## Convienience Stores
+## Convenience Stores
 
 `Right Drawer > Local Area > Convenience Stores`
 
@@ -55,7 +57,7 @@ The major supermarket chains in the area. The icons are colour-coded by the supe
 Colour-coded to the brand of the store. These are generally smaller than the supermarkets. Clicking the icon will optionally show:
 
 - Name of store
-- Brand name of store
+- Brand name of the store
 - Opening hours
 - Website
 - Contact details
@@ -67,10 +69,10 @@ Colour-coded to the brand of the store. These are generally smaller than the sup
 
 (Cup Icon)
 
-Colour-coded brown. Local coffee shops por cafes. Clicking the icon will optionally show:
+Colour-coded brown. Local coffee shops or cafes. Clicking the icon will optionally show:
 
 - Name of shop
-- Brand name of shop
+- Brand name of the shop
 - Opening hours
 - Website
 - Contact details
@@ -85,7 +87,7 @@ Colour-coded brown. Local coffee shops por cafes. Clicking the icon will optiona
 Colour-coded yellow. Local schools in the area. Clicking the icon will optionally show:
 
 - Name of school
-- Brand name of school
+- Brand name of the school
 - Opening hours
 - Website
 - Contact details
@@ -112,7 +114,7 @@ Colour-coded black. Local gyms in the area. Clicking the icon will optionally sh
 
 (Letter Icon)
 
-Colour-coded red. Local post-offices in the area. Clicking the icon will optionally show:
+Colour-coded red. Local post offices in the area. Clicking the icon will optionally show:
 
 - Name of post-offices
 - Brand name of post-offices
@@ -137,7 +139,7 @@ Colour-coded blue. Local stations in the area. Clicking the icon will optionally
 
 (Bus Icon)
 
-Colour-coded green. Local bus-stops in the area. Clicking the icon will optionally show:
+Colour-coded green. Local bus stops in the area. Clicking the icon will optionally show:
 
 - Location of bus stop
 
@@ -150,7 +152,7 @@ Colour-coded green. Local bus-stops in the area. Clicking the icon will optional
 Colour-coded green. Local airports in the area. Clicking the icon will optionally show:
 
 - Name of airport
-- Brand name of airport
+- Brand name of the airport
 - Opening hours
 - Website
 - Contact details
@@ -165,7 +167,7 @@ Colour-coded green. Local airports in the area. Clicking the icon will optionall
 Colour-coded orange. Local doctors in the area. Clicking the icon will optionally show:
 
 - Name of doctor
-- Brand name of doctor
+- Brand name of the doctor
 - Opening hours
 - Website
 - Contact details
@@ -180,7 +182,7 @@ Colour-coded orange. Local doctors in the area. Clicking the icon will optionall
 Colour-coded red. Local hospitals in the area. Clicking the icon will optionally show:
 
 - Name of hospital
-- Brand name of hospital
+- Brand name of the hospital
 - Opening hours
 - Website
 - Contact details

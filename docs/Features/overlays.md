@@ -4,6 +4,8 @@ sidebar_label: '🚇 Overlays'
 
 # 🚇 Overlays
 
+<iframe width="100%" class="h-96" src="https://www.youtube.com/embed/67yj2mSjQYA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 `Right Drawer > Overlays`
 
 Seeing train stations, bus routes, school locations and other essential information was a key feature that has been implemented into the application.
@@ -21,17 +23,17 @@ Shows all colour-coded tube lines for the Tfl underground. A straight line betwe
 
 ## 🚈 London Tube Stations
 
-Every dot on the map will be one of the hundreds of tube stations scattered around london. Click on the marker for:
+Every dot on the map will be one of the hundreds of tube stations scattered around London. Click on the marker for:
 - Station Name
 - Zone of Station
 - Postcode
 - Longitude / Latitude
-- A link to more details of the station.
+- A link to more details about the station.
 
 
 ## 🛤 London Train Lines
 
-To compliment the map, we have also included the colour-coded train lines within London. A straight dotted line that isn't geographically correct and doesn't follow the tracks exactly. These are from multiple different train services and by clicking on the line will popup information that includes the service name for that particular section of track and the two stations it connects to.
+To complement the map, we have also included the colour-coded train lines within London. A straight dotted line that isn't geographically correct and doesn't follow the tracks exactly. These are from multiple different train services and clicking on the line will popup information that includes the service name for that particular section of track and the two stations it connects to.
 
 - Train Line Operator (SouthEastern, Thameslink, etc...)
 - Station A Name
@@ -39,12 +41,12 @@ To compliment the map, we have also included the colour-coded train lines within
 
 ## 🚉 London Train Stations
 
-For those who commute into London, one of the most important pieces of information is where are the train stations. This toggle button will show most stations within and around the M25 boundary of London. Click on the marker for:
+For those who commute to London, one of the most important pieces of information is where are the train stations. This toggle button will show most stations within and around the M25 boundary of London. Click on the marker for:
 - Station Name
 - Zone of Station
 - Postcode
 - Longitude / Latitude
-- A link to more details of the station.
+- A link to more details about the station.
 
 
 ## 🚅 National Rail Lines
@@ -82,11 +84,11 @@ Get a general overview of all the London supermarket locations. Click on any loc
 
 ## 🎓 University
 
-Show a marker of every registered UCAS university in the country. By clicking of the marker you'll get:
+Show a marker of every registered UCAS university in the country. By clicking on the marker you'll get:
 - University Name
 - Cover image
 - Website link
-- Telephone number for general eenquiries
+- The telephone number for general enquiries
 - Email address
 
 
@@ -130,7 +132,7 @@ Note that this is not a complete list of schools and may have missing entries.
 
 ## 👶 Child Centers
 
-Display a list of registered childcare centers within the UK. Note that this is not an exhaustive list, but should be used to help see the options available.
+Display a list of registered childcare centres within the UK. Note that this is not an exhaustive list, but should be used to help see the options available.
 
 Clicking on the marker will display:
 - Center name
@@ -141,5 +143,5 @@ Clicking on the marker will display:
 
 ## 🛡 2018 Crime Borough Statistics
 
-This overlay will split the UK into separate boroughs and overlay a green / yellow / red transparent fill to show the average crime levels. 
-You can click on any of the boroughs to see a complete break-down of the 2018 numbers for each category of crime. There is also a percentage for all-crimes against the nation highest (Westminster). 
+This overlay will split the UK into separate boroughs and overlay a green/yellow/red transparent fill to show the average crime levels. 
+You can click on any of the boroughs to see a complete breakdown of the 2018 numbers for each category of crime. There is also a percentage for all crimes against the nation's highest (Westminster). 

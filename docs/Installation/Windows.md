@@ -2,6 +2,8 @@
 sidebar_label: '🪟 Windows'
 ---
 
+<iframe width="100%" class="h-96" src="https://www.youtube.com/embed/ay5hsvY-81s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 # 🪟 Windows
 
 1. To get started, you need to download the correct version. Head over to the [downloads](/downloads) page and click on the latest Windows download.
@@ -14,4 +16,4 @@ sidebar_label: '🪟 Windows'
 
 ## 🏗 Architecture
 
-HouseQuests is built using Electron, among other things. This makes is very reliable and versatile with multiple operating systems, including MacOS, windows and Linux. 
+HouseQuests is built using Electron, among other things. This makes it very reliable and versatile with multiple operating systems, including macOS, Windows and Linux. 
