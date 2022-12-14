@@ -1,8 +1,12 @@
 import React from 'react';
-const {siteConfig} = useDocusaurusContext();
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+
+
 
 export default function StripePortal() {
 
+  const {siteConfig} = useDocusaurusContext();
+  
   return (
     <section className="relative ">
       <div className="container px-4 md:px-32 py-32">
