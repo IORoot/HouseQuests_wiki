@@ -31,6 +31,7 @@ const config = {
     mixpanel: {
       token: '88c85907bbf0406fee18a4dc38ae11f4',
     },
+    stripe_portal_link: 'https://billing.stripe.com/p/login/7sIdSx3m57cNf0Q5kk'
   },
 
   presets: [
