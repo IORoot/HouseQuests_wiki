@@ -14,4 +14,4 @@ Put your details into the payment form and click the `Subscribe` button.
 
 Once you're on the subscription plan, Stripe will tell us that you've paid for the next month and to enable access. This will automatically happen every month. You'll receive an email saying you've paid for the next invoice.
 
-<iframe width="100%" class="h-96" src="https://www.youtube.com/embed/W-cE9C7W_XI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="600px" src="https://www.youtube.com/embed/W-cE9C7W_XI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

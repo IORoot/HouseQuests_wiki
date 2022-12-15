@@ -9,26 +9,25 @@ export default function PricingWarning() {
 
 
         <div className="p-6 w-full bg-white rounded-lg flex flex-col gap-8">
-          <h1 className="text-7xl text-center text-amber-800">CAVEATS</h1>
+          <h1 className="text-4xl text-center text-gray-500">Purchase as-is.</h1>
           <div className="text-2xl">
-            <p>We wish to be completely open to you with the HouseQuests software. It is currently a small passion-project run on the side who have full-time jobs and are making it available to the public.</p>
-            <p>Therefore, this application does not come with the following things that you would normally expect with full software:</p>
+            <p>We appreciate your interest in the HouseQuests software. Please note that it is currently a small passion project run by a team with full-time jobs. As such, it may not come with the full support and services you might expect from commercial software.</p>
           
             <ul role="list" className="mb-8 space-y-4 text-left">
               <li className="flex items-center space-x-3">
-                  <span><span className="font-bold">Customer support teams.</span> We try our best to get to fix any real problems or bugs, but we do not have a proper support team and cannot help with any individual issues or bugs you may have. We keep the troubleshooting section of this website as accurate as possible and you can file a bug report over on our <a href="https://github.com/IORoot/HouseQuests/issues/new/choose" target="_blank">GitHub repository</a>.</span>
+                  <span><span className="font-bold">Customer support teams.</span> We will do our best to address any issues or bugs, but we don't have a dedicated support team and may not be able to provide individual assistance. We keep the troubleshooting section of our website up to date and welcome bug reports on our <a href="https://github.com/IORoot/HouseQuests/issues/new/choose" target="_blank">GitHub repository</a>.</span>
               </li>
               <li className="flex items-center space-x-3">
-                  <span><span className="font-bold">3rd party Services.</span> This application is built upon multiple third-party APIs and services - if any of those services change or block the application, it will take time to fix or potentially remove that feature if a solution cannot be found or resolved.</span>
+                  <span><span className="font-bold">3rd party Services.</span> This application is built on multiple third-party APIs and services. If any of these services change or block our application, it may take time to fix or potentially remove the affected feature if a solution cannot be found.</span>
               </li>
               <li className="flex items-center space-x-3">
-                  <span><span className="font-bold">Stopping services.</span> As mentioned above, this is primarily run as a small side-project and we may decide that we wish to walk away from continuing development. In such an event, plenty of notice will be made and the subscriptions will be halted.</span>
+                  <span><span className="font-bold">Stopping services.</span> As mentioned, this is primarily a side project and we may decide to stop development in the future. If this happens, we will give plenty of notice and halt subscriptions.</span>
               </li>
               <li className="flex items-center space-x-3">
-                  <span><span className="font-bold">Bugfixes and updates.</span> There are no guaranteed bug-fixes or updates. We are actively developing the software as we see fit, but we are placing no obligation on ourselves if we decide to stop.</span>
+                  <span><span className="font-bold">Bugfixes and updates.</span> There are no guarantees of bug fixes or updates. We are actively developing the software as we see fit, but we may decide to stop without obligation.</span>
               </li>
               <li className="flex items-center space-x-3 pt-20">
-                  <span>If you have ANY issues with these caveats, then please do not purchase this software. We advise to try the free version before you make any purchase to avoid any issues or disappointment.</span>
+                  <span>If you have any concerns about these caveats, please don't hesitate to contact us. We recommend trying the free version before making a purchase to ensure that the software meets your needs and expectations.</span>
               </li>
           </ul>
           

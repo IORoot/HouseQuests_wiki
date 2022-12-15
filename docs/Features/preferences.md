@@ -33,7 +33,7 @@ This is a comma-separated list of words or combinations of words that you wish t
 
 This is a comma-separated list of words or combinations of words that you wish to highlight in red in the description. The words are trimmed of whitespace on the front and end, but any multiple words will be kept as-is.
 
-<iframe width="100%" class="h-96" src="https://www.youtube.com/embed/gUEUMh_F4RE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="600px" src="https://www.youtube.com/embed/gUEUMh_F4RE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## 🌈 Map Colours
 
@@ -50,7 +50,7 @@ The following filters are available:
 - Dark. This will desaturate to remove all colours and then invert to make it dark.
 - Sepia. Give a light-brown warm tint to the map.
 
-<iframe width="100%" class="h-96" src="https://www.youtube.com/embed/hGuLMEA3qf4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="600px" src="https://www.youtube.com/embed/hGuLMEA3qf4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## 🎚 Settings
 

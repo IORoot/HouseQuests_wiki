@@ -7,7 +7,7 @@ Authentication is set up through the admin tab on the left drawer.
 
 ## 🔐 Authentication Code
 
-<iframe width="100%" class="h-96" src="https://www.youtube.com/embed/W-cE9C7W_XI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="600px" src="https://www.youtube.com/embed/W-cE9C7W_XI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 If you have decided and purchased (thank you!) a subscription to HouseQuests, then you'll need both the email address you registered the subscription with and the authentication code that was automatically emailed to that address once you had subscribed. 
 

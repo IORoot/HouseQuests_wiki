@@ -1,0 +1,7 @@
+---
+sidebar_label: '📏 Distance Tool'
+---
+
+# 📏 Distance Measurement Tool
+
+<iframe width="100%" height="600px" src="https://www.youtube.com/embed/SdRHD2janTU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

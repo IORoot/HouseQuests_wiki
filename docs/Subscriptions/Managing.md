@@ -17,4 +17,4 @@ In the stripe portal you can:
 - Change card details
 - View your invoice and payment history.
 
-<iframe width="100%" class="h-96" src="https://www.youtube.com/embed/W-cE9C7W_XI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="600px" src="https://www.youtube.com/embed/W-cE9C7W_XI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

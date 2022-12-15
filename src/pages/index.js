@@ -34,8 +34,8 @@ function HomepageHeader() {
   return (
     <header className="text-gray-900 pt-12 md:pt-24 relative mb-40 overflow-hidden">
       <div className="container lg:w-2/3 m-auto text-center flex flex-col gap-8 perspective z-10 relative">
-        <h1 className="text-4xl md:text-7xl">Track down the perfect property</h1>
-        <p className="text-lg text-gray-500 md:w-1/2 m-auto">A new cross-platform, property app for searching across multiple sources. Search, analyse and organise. </p>
+        <h1 className="text-4xl md:text-7xl"><span class="bg-yellow-400 text-white px-2">Quest</span> for the perfect home</h1>
+        <p className="text-lg text-gray-500 md:w-1/2 m-auto">Find your dream property with HouseQuests, the cross-platform app for searching, analyzing, and organizing listings from multiple sources.</p>
         <div className="flex flex-row gap-4 mx-auto mb-20">
           <Link to="/downloads" className="text-white bg-emerald-700 hover:bg-emerald-800 hover:text-orange-300 focus:ring-4 focus:outline-none focus:ring-emerald-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center ">
               Downloads

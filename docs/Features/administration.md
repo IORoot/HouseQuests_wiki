@@ -4,7 +4,7 @@ sidebar_label: '⌨️ Administration'
 
 # ⌨️ Administration
 
-<iframe width="100%" class="h-96" src="https://www.youtube.com/embed/22I4kE4RikY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="600px" src="https://www.youtube.com/embed/22I4kE4RikY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 The administration tab is where you go to handle most of the more critical parts of the application. From file handling to authentication. Note that some of these settings are for subscribers only.
@@ -59,7 +59,7 @@ When you save your settings, it's a snapshot of all your settings in the current
 This is for ` Subscriptions only`.
 :::
 
-<iframe width="100%" class="h-96" src="https://www.youtube.com/embed/g_Bk8q-4E04" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="600px" src="https://www.youtube.com/embed/g_Bk8q-4E04" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Primarily used for backing up your settings and loading them back into the application. Can also be used for sending your search settings to friends. (Be aware your authorisation code will also be shared!)
 
@@ -80,7 +80,7 @@ Please see the [Authentication Doc](/docs/Features/authentication)
 
 ## ⛔️ Danger Zone
 
-<iframe width="100%" class="h-96" src="https://www.youtube.com/embed/7tFk4KLO-Vw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="600px" src="https://www.youtube.com/embed/7tFk4KLO-Vw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Be careful with this section of the admin panel. If you have a subscription, make sure you've taken a file export (see above) to back up all your settings before doing any of these functions.
 

@@ -4,7 +4,7 @@ sidebar_label: '❌ Excluding'
 
 # ❌ Excluding (hiding) Properties
 
-<iframe width="100%" class="h-96" src="https://www.youtube.com/embed/uMzOfv48CGk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="600px" src="https://www.youtube.com/embed/uMzOfv48CGk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 One of the primary features of HouseQuests is the ability to exclude or hide any properties that you're not interested in. This effectively removes the marker from ever showing again on the map. You can focus on only those new houses that have been added or the ones you've favourited.
 
