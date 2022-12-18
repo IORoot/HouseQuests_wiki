@@ -40,3 +40,9 @@ A complete count of all markers retrieved from all three sources.
 ## 🔄 Refresh Page
 
 Manually refresh the page and clear any changes.
+
+---
+
+# ⏩ Zoopla All
+
+One little feature that should be noted is that by default, the Zoopla website only displays the first 100 result markers on their map. This makes it tricky if you have more than 100 results to see. HouseQuests, by default, will retrieve ALL results and plot them on the map from Zoopla.

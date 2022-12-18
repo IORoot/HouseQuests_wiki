@@ -20,7 +20,7 @@ export default function HomepageFeaturesTop() {
                 <h3>Distance measurement</h3>
               </div>
               <p className="text-gray-500">Calculate the walking time and distance across multiple points. Draw on the map multiple routes and paths to determine your travel.</p>
-              <a className="text-gray-900" href="/">Measurement Tool<svg className="ml-2 w-3 h-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"></path></svg></a>
+              <a className="text-gray-900" href="/docs/Features/distance_tool">Measurement Tool<svg className="ml-2 w-3 h-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"></path></svg></a>
             </div>
           </div>
 
@@ -32,7 +32,7 @@ export default function HomepageFeaturesTop() {
                 <h3>Zoopla All Marker</h3>
               </div>
               <p className="text-gray-500">By default, the zoopla website search will show you only the first 100 results on their map. Display all markers in the HouseQuests app.</p>
-              <a className="text-gray-900" href="/">Zoopla Search<svg className="ml-2 w-3 h-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"></path></svg></a>
+              <a className="text-gray-900" href="/docs/Features/marker_results">Zoopla Search<svg className="ml-2 w-3 h-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"></path></svg></a>
             </div>
           </div>
 
@@ -44,7 +44,7 @@ export default function HomepageFeaturesTop() {
                 <h3>Text Highlighter</h3>
               </div>
               <p className="text-gray-500">Setup <span className="bg-emerald-600 rounded-full px-2 pb-0.5 text-white">positive</span> and <span className="bg-orange-800 rounded-full px-2 pb-0.5 text-white">negative</span> keywords that will be listed and highlighted within the property description details when loaded. </p>
-              <a className="text-gray-900" href="/">Text Highlighter<svg className="ml-2 w-3 h-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"></path></svg></a>
+              <a className="text-gray-900" href="/docs/Features/preferences#-text-highlighter">Text Highlighter<svg className="ml-2 w-3 h-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"></path></svg></a>
             </div>
           </div>
 
@@ -56,7 +56,7 @@ export default function HomepageFeaturesTop() {
                 <h3>Map Colours</h3>
               </div>
               <p className="text-gray-500">Alter the theme of the map to suit your needs. You can currently darken, greyscale, sepia-tint and invert the map colours.</p>
-              <a className="text-gray-900" href="/">Map Colours<svg className="ml-2 w-3 h-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"></path></svg></a>
+              <a className="text-gray-900" href="/docs/Features/preferences#-map-colours">Map Colours<svg className="ml-2 w-3 h-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"></path></svg></a>
             </div>
           </div>
 
@@ -68,7 +68,7 @@ export default function HomepageFeaturesTop() {
                 <h3>Import / Export</h3>
               </div>
               <p className="text-gray-500">Save a file of your all your exclusions, searches and settings. Handy for sharing with others to see your setup or simply keeping a backup.</p>
-              <a className="text-gray-900" href="/">Import / Export<svg className="ml-2 w-3 h-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"></path></svg></a>
+              <a className="text-gray-900" href="/docs/Features/administration#-import--export">Import / Export<svg className="ml-2 w-3 h-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"></path></svg></a>
             </div>
           </div>
 
@@ -80,7 +80,7 @@ export default function HomepageFeaturesTop() {
                 <h3>Saved settings</h3>
               </div>
               <p className="text-gray-500">Keep different saved states with alternative searches and excluded properties. Allows you to setup switch between multiple application setups.</p>
-              <a className="text-gray-900" href="/">Saved Settings<svg className="ml-2 w-3 h-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"></path></svg></a>
+              <a className="text-gray-900" href="/docs/Features/administration#-saved-settings">Saved Settings<svg className="ml-2 w-3 h-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"></path></svg></a>
             </div>
           </div>
 
@@ -92,7 +92,7 @@ export default function HomepageFeaturesTop() {
                 <h3>Instant Reload</h3>
               </div>
               <p className="text-gray-500">Reloading the page or starting up the application will instantly request all new house results. Saving you lots of time visiting the same sites and searches.</p>
-              <a className="text-gray-900" href="/">Instant Reload<svg className="ml-2 w-3 h-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"></path></svg></a>
+              <a className="text-gray-900" href="/docs/Features/marker_results">Instant Reload<svg className="ml-2 w-3 h-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"></path></svg></a>
             </div>
           </div>
 
@@ -104,7 +104,7 @@ export default function HomepageFeaturesTop() {
                 <h3>In-depth details</h3>
               </div>
               <p className="text-gray-500">Utilising multiple third-party tools, acquire much more information abour the selected property. Schools, transport, crime, broadband and much more.</p>
-              <a className="text-gray-900" href="/">Instant Reload<svg className="ml-2 w-3 h-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"></path></svg></a>
+              <a className="text-gray-900" href="/docs/Features/property_details">Property Details<svg className="ml-2 w-3 h-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"></path></svg></a>
             </div>
           </div>
 
@@ -116,7 +116,7 @@ export default function HomepageFeaturesTop() {
                 <h3>Calculated Stats</h3>
               </div>
               <p className="text-gray-500">Discover more information about the surrounding area and postcode. Get an understanding of how the selected property compares to the local averages. </p>
-              <a className="text-gray-900" href="/">Instant Reload<svg className="ml-2 w-3 h-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"></path></svg></a>
+              <a className="text-gray-900" href="/docs/Features/property_statistics">Statistics<svg className="ml-2 w-3 h-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"></path></svg></a>
             </div>
           </div>
 
