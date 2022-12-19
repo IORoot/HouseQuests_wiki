@@ -1,10 +1,10 @@
 ---
-sidebar_label: '🪟 Windows'
+sidebar_label: '💻 Windows'
 ---
 
 <iframe width="100%" height="600px" src="https://www.youtube.com/embed/ay5hsvY-81s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-# 🪟 Windows
+# 💻 Windows
 
 1. To get started, you need to download the correct version. Head over to the [downloads](/downloads) page and click on the latest Windows download.
 

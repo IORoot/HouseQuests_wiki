@@ -56,4 +56,10 @@ The following filters are available:
 
 `Right drawer > Preferences > Settings`
 
+### 👋 Intro Modal
+
 Toggle the intro panel on or off when the application is loaded or refreshed.
+
+### 🎓 Intro Tutorial
+
+Toggle the intro tutorial back on or off. Whenever you close the tutorial, this is automatically toggled to keep the tutorial off.
