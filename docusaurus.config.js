@@ -54,8 +54,8 @@ const config = {
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
-          customCss: [ 
-            require.resolve('./src/css/custom.css'), 
+          customCss: [
+            require.resolve('./src/css/custom.css'),
             require.resolve("./src/css/tailwind.css")
           ],
         },
@@ -74,13 +74,8 @@ const config = {
         },
         items: [
           {
-            to: '/downloads', 
-            label: 'Downloads', 
-            position: 'left'
-          },
-          {
-            to: '/pricing', 
-            label: 'Pricing', 
+            to: '/downloads',
+            label: 'Downloads',
             position: 'left'
           },
           {
@@ -90,8 +85,8 @@ const config = {
             label: 'Docs',
           },
           {
-            to: '/blog', 
-            label: 'Blog', 
+            to: '/blog',
+            label: 'Blog',
             position: 'left'
           },
           {
@@ -138,7 +133,7 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
-    
+
 };
 
 module.exports = config;
