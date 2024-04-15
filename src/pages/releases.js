@@ -6,7 +6,7 @@ import gfm from 'remark-gfm'
 
 
 function get_releases() {
-  const { data } = useFetch("https://api.github.com/repos/ioroot/advancedpropertysearch/releases");
+  const { data } = useFetch("https://api.github.com/repos/ioroot/housequests-private/releases");
   return data
 }
 

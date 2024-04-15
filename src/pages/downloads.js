@@ -7,7 +7,7 @@ import gfm from 'remark-gfm'
 
 function downloadPage() {
 
-  const { data } = useFetch("https://api.github.com/repos/ioroot/advancedpropertysearch/releases/latest");
+  const { data } = useFetch("https://api.github.com/repos/ioroot/housequests-private/releases/latest");
 
   let assetOutput = []
 
