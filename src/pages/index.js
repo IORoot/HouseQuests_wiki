@@ -34,11 +34,12 @@ function HomepageHeader() {
   return (
     <header className="text-gray-900 pt-12 md:pt-24 relative mb-40 overflow-hidden">
       <div className="container lg:w-2/3 m-auto text-center flex flex-col gap-8 perspective z-10 relative">
-        <h1 className="text-4xl md:text-7xl"><span class="bg-yellow-400 text-white px-2">Quest</span> for the perfect home</h1>
-        <p className="text-lg text-gray-500 md:w-1/2 m-auto">Find your dream property with HouseQuests, the cross-platform app for searching, analyzing, and organizing listings from multiple sources.</p>
+        <h1 className="text-4xl md:text-7xl"><span class="bg-red-400 text-white px-2">PROJECT DEVELOPMENT STOPPED</span></h1>
+        <h1 className="text-4xl md:text-7xl"><span class="bg-yellow-400 text-white px-2">HOUSE</span>QUESTS</h1>
+        <p className="text-lg text-gray-500 md:w-1/2 m-auto">Due to me moving onto other things, development has stopped. I've left the project up and available for anyone who wishes to use the code for themselves. Visit the <a href="https://github.com/IORoot/HouseQuests" className="text-emerald-700 hover:text-emerald-800">GitHub repository</a> for more information.</p>
         <div className="flex flex-row gap-4 mx-auto mb-20">
-          <Link to="/downloads" className="text-white bg-emerald-700 hover:bg-emerald-800 hover:text-orange-300 focus:ring-4 focus:outline-none focus:ring-emerald-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center ">
-            Downloads
+          <Link to="https://github.com/IORoot/HouseQuests" className="text-white bg-emerald-700 hover:bg-emerald-800 hover:text-orange-300 focus:ring-4 focus:outline-none focus:ring-emerald-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center ">
+            Repository
             <svg aria-hidden="true" className="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" ></path></svg>
           </Link>
         </div>
